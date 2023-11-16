@@ -1,0 +1,283 @@
+* {
+  transform-origin: top;
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 700px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#navbar {
+  text-align: center;
+}
+
+#personal-info a {
+  text-decoration: none;
+  color: #2196f3;
+  font-size: 36px;
+}
+
+/* BANNER */
+#banner {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+}
+
+.bg1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.6;
+  font-size: 48px;
+}
+
+.bg2 {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+/* NAVBAR */
+#navbar .container {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #2196f3;
+  padding: 20px 16px;
+}
+
+#navbar img {
+  display: none;
+}
+/* ABOUT */
+
+#about .container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  font-size: 24px;
+}
+
+#about #personal-info {
+  padding-left: 5%;
+}
+
+#about #social-network {
+  display: flex;
+  padding-left: 5%;
+  color: #2196f3;
+}
+
+/* JOB-INFO */
+.icon {
+  padding-left: 25px;
+}
+
+#job-info .BigLi {
+  list-style-type: disc;
+  display: inline-block;
+  padding-right: 100px;
+  margin-bottom: 5px;
+}
+
+#job-info li {
+  list-style-type: "-";
+}
+
+#job-info .fk {
+  color: #f7f7f7;
+  background-color: #2196f3;
+  border-radius: 6px;
+  padding: 1px 3px;
+}
+
+#job-info .time {
+  display: inline-flex;
+  font-style: italic;
+}
+
+#job-info .hobby .ovr {
+  font-size: 24px;
+  color: black;
+  line-break: strict;
+}
+
+#job-info .hobby {
+  display: inline-block;
+  color: #2196f3;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+#job-info .point1 {
+  margin-top: 10px;
+  height: 3px;
+  width: 60px;
+  background-color: rgb(0, 119, 255);
+  border: 1px solid rgb(0, 119, 255);
+  border-width: 3px;
+  border-radius: 6px;
+  margin-right: 3px;
+}
+
+#job-info .point2 {
+  margin-top: 10px;
+  height: 3px;
+  width: 60px;
+  background-color: rgb(0, 162, 255);
+  border: 1px solid rgb(0, 162, 255);
+  border-width: 3px;
+  border-radius: 6px;
+  margin-right: 3px;
+}
+
+#job-info .point3 {
+  margin-top: 10px;
+  height: 3px;
+  width: 60px;
+  background-color: gray;
+  border: 1px solid gray;
+  border-width: 3px;
+  border-radius: 6px;
+  margin-right: 3px;
+}
+
+/* CERTIFICATE */
+#certificate {
+  padding: 50px 20px;
+  display: flex;
+  font-size: 24px;
+}
+
+#certificate .col {
+  padding: 15px;
+}
+
+#certificate .bBottom {
+  padding: 15px 0;
+  border-bottom: 1px solid #f3721e;
+}
+
+#certificate img {
+  float: left;
+  width: 100%;
+}
+
+#certificate ul {
+  float: right;
+}
+
+#certificate h5 {
+  text-transform: uppercase;
+}
+/* PROJECT */
+#project .projName {
+  text-transform: uppercase;
+  padding: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: none;
+}
+
+#project .info {
+  padding: 10px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: none;
+}
+
+#project .inline {
+  display: inline;
+  padding: 0 15px;
+}
+
+#project .time {
+  color: #f7f7f7;
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
+  border-radius: 10px;
+}
+
+#project img {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  width: 440px;
+  height: 307px;
+  margin-top: 50px;
+}
+
+#project .about {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 70px;
+  padding: 10px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: none;
+}
+
+#project .mission {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 35px;
+  padding: 10px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: none;
+}
+
+#project .tech {
+  display: grid;
+  grid-template-columns: 110px 330px;
+  column-gap: 12px;
+  padding: 10px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+#project .cv .tech {
+  padding-bottom: 65px;
+}
+
+#project .web2 .tech {
+  padding-bottom: 39px;
+}
+
+/* FOOTER */
+#footer a {
+  text-decoration: none;
+  color: #2196f3;
+  display: inline-block;
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+#footer .container {
+  text-align: center;
+}
+
+#footer .ic {
+  color: #2196f3;
+  font-size: 40px;
+  padding: 10px;
+}
+
+#footer .ovr {
+  font-size: 24px;
+  color: rgba(128, 128, 128, 0.705);
+}
